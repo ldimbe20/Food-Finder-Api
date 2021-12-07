@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Dion Stoade",
+      "email": "dstoade0@cornell.edu"
+    },
+    {
+      "name": "Lauren Dimberg",
+      "email": "ldimbe20@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "Larry David",
+      "email": "lulu@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Amy",
+      "email": "amy@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Lauren Dimberg",
+      "email": "tamy@gmail.com",
+      "id": 5
+    }
+  ],
+  "userRestrictions": [
+    {
+      "id": 1,
+      "restrictionProfilesId": 1,
+      "foodRestrictionsId":1
+    },
+    {
+      "id": 2,
+      "restrictionProfilesId": 2,
+      "foodRestrictionsId":2
+    },
+    {
+      "id": 3,
+      "restrictionProfilesId": 3,
+      "foodRestrictionsId":3
+    }
+  ],
+  "restrictionProfiles": [
+    {
+      "id": 1,
+      "name": "",
+      "userId": 1
+    },
+    {
+      "id": 1,
+      "name": "",
+      "userId": 1
+    }
+    
+  ],
+  "foodRestrictions": [
+    {
+      "id": 1,
+      "name": "Pickles",
+      "manuallyAdded": true
+    },
+    {
+      "id": 2,
+      "name": "Gluten",
+      "manuallyAdded": false
+    },
+    {
+      "id": 3,
+      "name": "Dairy",
+      "manuallyAdded": false
+    },
+    {
+      "id": 4,
+      "name": "ShellFish",
+      "manuallyAdded": false
+    },
+    {
+      "id": 4,
+      "name": "Tree Nuts",
+      "manuallyAdded": false
+    }
+  ]
+}
