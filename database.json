@@ -16,45 +16,74 @@
       "id": 3
     },
     {
-      "name": "Amy",
-      "email": "amy@gmail.com",
+      "name": "amy",
+      "email": "donna@gmail.com",
       "id": 4
-    },
-    {
-      "name": "Lauren Dimberg",
-      "email": "tamy@gmail.com",
-      "id": 5
     }
   ],
-  "userRestrictions": [
+  "friendFoodRestrictions": [
     {
-      "id": 1,
-      "restrictionProfilesId": 1,
-      "foodRestrictionsId":1
+      "friendId": 34,
+      "foodRestrictionId": 47,
+      "id": 1
     },
     {
-      "id": 2,
-      "restrictionProfilesId": 2,
-      "foodRestrictionsId":2
+      "friendId": 15,
+      "foodRestrictionId": 11,
+      "id": 2
     },
     {
-      "id": 3,
-      "restrictionProfilesId": 3,
-      "foodRestrictionsId":3
+      "friendId": 16,
+      "foodRestrictionId": 12,
+      "id": 3
+    },
+    {
+      "friendId": 17,
+      "foodRestrictionId": 13,
+      "id": 4
     }
   ],
-  "restrictionProfiles": [
+  "friends": [
     {
-      "id": 1,
-      "name": "",
-      "userId": 1
+      "name": "lacy",
+      "userId": 1,
+      "id": 1
     },
     {
-      "id": 1,
-      "name": "",
-      "userId": 1
+      "name": "dg",
+      "userId": 2,
+      "id": 11
+    },
+    {
+      "name": "ds",
+      "userId": 2,
+      "id": 12
+    },
+    {
+      "name": "cs",
+      "userId": 2,
+      "id": 13
+    },
+    {
+      "name": "susan",
+      "userId": 2,
+      "id": 14
+    },
+    {
+      "name": "afd",
+      "userId": 2,
+      "id": 15
+    },
+    {
+      "name": "Amy",
+      "userId": 2,
+      "id": 16
+    },
+    {
+      "name": "tonya",
+      "userId": 2,
+      "id": 17
     }
-    
   ],
   "foodRestrictions": [
     {
@@ -69,18 +98,58 @@
     },
     {
       "id": 3,
-      "name": "Dairy",
+      "name": "Peanuts",
       "manuallyAdded": false
     },
     {
-      "id": 4,
-      "name": "ShellFish",
-      "manuallyAdded": false
+      "name": "nuts",
+      "manuallyAdded": true,
+      "id": 4
     },
     {
-      "id": 4,
-      "name": "Tree Nuts",
-      "manuallyAdded": false
+      "name": "watermelon",
+      "manuallyAdded": true,
+      "id": 5
+    },
+    {
+      "name": "lasagna",
+      "manuallyAdded": true,
+      "id": 6
+    },
+    {
+      "name": "fs",
+      "manuallyAdded": true,
+      "id": 7
+    },
+    {
+      "name": "amy",
+      "manuallyAdded": true,
+      "id": 8
+    },
+    {
+      "name": "asd",
+      "manuallyAdded": true,
+      "id": 9
+    },
+    {
+      "name": "dsfdsf",
+      "manuallyAdded": true,
+      "id": 10
+    },
+    {
+      "name": "af",
+      "manuallyAdded": true,
+      "id": 11
+    },
+    {
+      "name": "Lima beans",
+      "manuallyAdded": true,
+      "id": 12
+    },
+    {
+      "name": "peas",
+      "manuallyAdded": true,
+      "id": 13
     }
   ]
 }
