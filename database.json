@@ -1,155 +1,42 @@
 {
   "users": [
     {
-      "id": 1,
-      "name": "Dion Stoade",
-      "email": "dstoade0@cornell.edu"
-    },
-    {
-      "name": "Lauren Dimberg",
-      "email": "ldimbe20@gmail.com",
-      "id": 2
-    },
-    {
-      "name": "Larry David",
-      "email": "lulu@gmail.com",
-      "id": 3
-    },
-    {
-      "name": "amy",
-      "email": "donna@gmail.com",
-      "id": 4
+      "name": "Lauren",
+      "email": "lauren@gmail.com",
+      "id": 1
     }
   ],
   "friendFoodRestrictions": [
     {
-      "friendId": 34,
-      "foodRestrictionId": 47,
+      "foodRestrictionName": "Nuts",
+      "friendId": 1,
+      "severityLevelId": 2,
       "id": 1
-    },
-    {
-      "friendId": 15,
-      "foodRestrictionId": 11,
-      "id": 2
-    },
-    {
-      "friendId": 16,
-      "foodRestrictionId": 12,
-      "id": 3
-    },
-    {
-      "friendId": 17,
-      "foodRestrictionId": 13,
-      "id": 4
     }
   ],
   "friends": [
     {
-      "name": "lacy",
+      "name": "Linda",
       "userId": 1,
+      "id": 1
+    }
+  ],
+  "severityLevels": [
+    {
+      "severityLevel": 1,
       "id": 1
     },
     {
-      "name": "dg",
-      "userId": 2,
-      "id": 11
+      "severityLevel": 2,
+      "id": 2
     },
     {
-      "name": "ds",
-      "userId": 2,
-      "id": 12
+      "severityLevel": 3,
+      "id": 3
     },
     {
-      "name": "cs",
-      "userId": 2,
-      "id": 13
-    },
-    {
-      "name": "susan",
-      "userId": 2,
-      "id": 14
-    },
-    {
-      "name": "afd",
-      "userId": 2,
-      "id": 15
-    },
-    {
-      "name": "Amy",
-      "userId": 2,
-      "id": 16
-    },
-    {
-      "name": "tonya",
-      "userId": 2,
-      "id": 17
-    }
-  ],
-  "foodRestrictions": [
-    {
-      "id": 1,
-      "name": "Pickles",
-      "manuallyAdded": true
-    },
-    {
-      "id": 2,
-      "name": "Gluten",
-      "manuallyAdded": false
-    },
-    {
-      "id": 3,
-      "name": "Peanuts",
-      "manuallyAdded": false
-    },
-    {
-      "name": "nuts",
-      "manuallyAdded": true,
+      "severityLevel": 4,
       "id": 4
-    },
-    {
-      "name": "watermelon",
-      "manuallyAdded": true,
-      "id": 5
-    },
-    {
-      "name": "lasagna",
-      "manuallyAdded": true,
-      "id": 6
-    },
-    {
-      "name": "fs",
-      "manuallyAdded": true,
-      "id": 7
-    },
-    {
-      "name": "amy",
-      "manuallyAdded": true,
-      "id": 8
-    },
-    {
-      "name": "asd",
-      "manuallyAdded": true,
-      "id": 9
-    },
-    {
-      "name": "dsfdsf",
-      "manuallyAdded": true,
-      "id": 10
-    },
-    {
-      "name": "af",
-      "manuallyAdded": true,
-      "id": 11
-    },
-    {
-      "name": "Lima beans",
-      "manuallyAdded": true,
-      "id": 12
-    },
-    {
-      "name": "peas",
-      "manuallyAdded": true,
-      "id": 13
     }
   ]
 }
