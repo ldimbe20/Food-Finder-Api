@@ -5,20 +5,46 @@
       "email": "lauren@gmail.com",
       "id": 1
     }
+    
   ],
   "friendFoodRestrictions": [
     {
-      "foodRestrictionName": "Nuts",
+      "foodRestrictionName": "Soy",
       "friendId": 1,
-      "severityLevelId": 2,
+      "severityLevelId": 4,
+      "treatment": "Emergency injection of epinephrine is needed",
       "id": 1
+    },
+    {
+      "foodRestrictionName": "Dairy",
+      "friendId": 2,
+      "severityLevelId": 1,
+      "treatment": "Take one benedryl",
+      "id": 2
+    },
+    {
+      "foodRestrictionName": "Shellfish",
+      "friendId": 3,
+      "severityLevelId": 4,
+      "treatment": "Take 1 Cyproheptadine if rash and itchiness occurs",
+      "id": 3
     }
   ],
   "friends": [
     {
-      "name": "Linda",
+      "name": "Linda Johnson",
       "userId": 1,
       "id": 1
+    },
+    {
+      "name": "Timothy Wasniewski",
+      "userId": 1,
+      "id": 2
+    },
+    {
+      "name": "Lisa Bartlow",
+      "userId": 1,
+      "id": 3
     }
   ],
   "severityLevels": [
