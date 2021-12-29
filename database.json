@@ -19,14 +19,14 @@
       "foodRestrictionName": "Dairy",
       "friendId": 2,
       "severityLevelId": 1,
-      "treatment": "Take one benedryl",
+      "treatment": "Take one benadryl",
       "id": 2
     },
     {
       "foodRestrictionName": "Shellfish",
       "friendId": 3,
       "severityLevelId": 4,
-      "treatment": "Take 1 Cyproheptadine if rash and itchiness occurs",
+      "treatment": "Take 1 Cyproheptadine if rash occurs",
       "id": 3
     }
   ],
