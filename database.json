@@ -4,8 +4,12 @@
       "name": "Lauren",
       "email": "lauren@gmail.com",
       "id": 1
+    },
+    {
+      "name": "Jennifer Honey",
+      "email": "honey@gmail.com",
+      "id": 2
     }
-    
   ],
   "friendFoodRestrictions": [
     {
@@ -21,6 +25,34 @@
       "severityLevelId": 1,
       "treatment": "Take one benadryl",
       "id": 2
+    },
+    {
+      "foodRestrictionName": "Gluten",
+      "friendId": 3,
+      "severityLevelId": 1,
+      "treatment": "Take a benadryl",
+      "id": 3
+    },
+    {
+      "foodRestrictionName": "Milk",
+      "friendId": 4,
+      "severityLevelId": 2,
+      "treatment": "Give a benadryl",
+      "id": 4
+    },
+    {
+      "foodRestrictionName": "Gluten",
+      "friendId": 5,
+      "severityLevelId": 3,
+      "treatment": "Give epinephrine injection",
+      "id": 5
+    },
+    {
+      "foodRestrictionName": "Pork",
+      "friendId": 6,
+      "severityLevelId": 1,
+      "treatment": "Not allergic, but cannot eat because he is Kosher",
+      "id": 6
     }
   ],
   "friends": [
@@ -33,24 +65,48 @@
       "name": "Timothy Wasniewski",
       "userId": 1,
       "id": 2
-    }
-  ],
-  "severityLevels": [
-    {
-      "severityLevel": 1,
-      "id": 1
     },
     {
-      "severityLevel": 2,
-      "id": 2
-    },
-    {
-      "severityLevel": 3,
+      "name": "Matilda Wormwood",
+      "userId": 2,
       "id": 3
     },
     {
-      "severityLevel": 4,
+      "name": "Sarah Higgins",
+      "userId": 1,
       "id": 4
+    },
+    {
+      "name": "Jocelyn Starxard",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "Tony Maxin",
+      "userId": 1,
+      "id": 6
+    }
+"severityLevels": [
+    {
+      "severityLevel": 1,
+      "id": 1,
+      "description": "Food allergy symptoms include itching, hives, and rashes. Over the counter medications such as benadryl can be used to stop symptoms."
+    },
+    {
+      "severityLevel": 2,
+      "id": 2,
+      "description": "Food allergy symptoms are the same as level one but the severity is increased. Symptoms include itching, hives, and rashes. Over the counter medications such as benadryl can be used to stop symptoms."
+    },
+    {
+      "severityLevel": 3,
+      "id": 3,
+      "description": "Food allergy symptoms include itching, hives, rashes, trouble breathing and swelling of tongue, lips, and or throat. Use of adrenaline is needed."
+    },
+    {
+      "severityLevel": 4,
+      "id": 4,
+      "description": "Food allergy symptoms include itching, hives, rashes, trouble breathing and swelling of tongue, lips, and or throat. Use of adrenaline is needed, seek medical attention after shot is given."
     }
   ]
 }
+
