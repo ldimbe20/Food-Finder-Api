@@ -15,7 +15,7 @@ cd forbidden-food-api
 json-server database.json -p 8088
 
 ###### Launch the application from a new terminal tab 
--cd food-finder
+-cd Food-Finder-Api
 -npm start
 
 ###### Demo login credentials
