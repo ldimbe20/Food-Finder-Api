@@ -1,6 +1,7 @@
 # Food-Finder-Api
 ## Prerequisites
--Install json-server
+
+###### Install Server
 npm i json-server
 
 
